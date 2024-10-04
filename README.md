@@ -1,16 +1,39 @@
-# myapp
+# Food Delivery App
 
-A new Flutter project.
+A Flutter Food Delivery App built using the BLoC (Business Logic Component) pattern. This app showcases food items, allows users to add them to a cart, and proceed to checkout.
+
+## Features
+
+- **Home Screen**: Displays a list of food items with details.
+- **Cart Management**: Add or remove food items from the cart.
+- **Food Item Details**: View details in a bottom sheet.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK installed on your machine. You can follow the instructions on the [official Flutter installation page](https://flutter.dev/docs/get-started/install).
+- An IDE (like Visual Studio Code or Android Studio) for editing the code.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository or create a new Flutter project:
+   ```bash
+   flutter create food_delivery_app_bloc
+   cd food_delivery_app_bloc
+2.Set up the project structure as outlined above.
+
+3.Create the necessary files in the lib directory and copy the provided code snippets into their respective files.
+
+4.Add food images to the assets/images/ directory.
+
+5.Update the pubspec.yaml file to include the required dependencies:
+
+yaml
+Copy code
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+Run flutter pub get to install the dependencies.
+
